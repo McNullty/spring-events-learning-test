@@ -16,8 +16,10 @@ class CustomSpringEventPublisherTest {
   private CustomSpringEventPublisher publisher;
 
   @Test
-  void test() {
+  void test() throws InterruptedException {
     publisher.doStuffAndPublishAnEvent("Hello world");
+
+    Thread.sleep(10000l);
 
     fail("Not yet implemented");
   }

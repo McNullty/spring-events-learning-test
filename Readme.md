@@ -6,6 +6,7 @@
 1. If exception is raised and not handeled in event handler all handlers after
 that handler will not be executed.
 
+
 ## Synchronous Event handling
 
 This is default cinfiguration. If configuration is not changed Events will be 
